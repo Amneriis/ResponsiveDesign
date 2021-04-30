@@ -1,0 +1,76 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}    
+
+header{
+    background-color: #324ECD;
+    height: 70px;
+    width: 100%;
+}
+
+.section{
+
+    display: flex;
+    flex-flow: wrap;
+
+    .box{
+        &.b-yellow{
+            height: auto;
+            &#y500{
+                background-color: #FCA969;
+                min-height: 200px;
+                flex-grow: 2;
+            };
+            
+            &#y600{
+                background-color: #C85904;
+                height: 400px;
+                flex-grow: 1;
+
+            };
+        }
+        &.b-red{
+            &#r200{
+                background-color: rgb(255, 220, 253);
+                height: 50px;
+
+            };
+            &#r300{
+                background-color: orangered;
+                height: 50px;
+
+            };
+            &#r400{
+                background-color: rgb(213, 117, 252);
+                height: 50px;
+
+            
+            };
+            &#r500{
+                background-color: rgb(255, 111, 111);
+                height: 50px;
+
+            };
+            &#r600{
+                background-color: rgb(229, 164, 255);
+                height: 50px;
+
+            };
+            &#r700{
+                background-color: rgb(213, 117, 252);
+                height: 50px;
+
+            };
+        }
+        &.b-blue{                
+            background-color: rgb(38, 0, 255);
+            height: 50px;
+            width: 200px;}
+    } 
+
+/* 
+    &#yellow{}
+    &#red{}
+    &#blue{} */
+}

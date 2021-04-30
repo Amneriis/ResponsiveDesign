@@ -1,0 +1,79 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #324ECD;
+  height: 70px;
+  width: 100%;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  /* 
+    &#yellow{}
+    &#red{}
+    &#blue{} */
+}
+
+.section .box.b-yellow {
+  height: auto;
+}
+
+.section .box.b-yellow#y500 {
+  background-color: #FCA969;
+  min-height: 200px;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.section .box.b-yellow#y600 {
+  background-color: #C85904;
+  height: 400px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.section .box.b-red#r200 {
+  background-color: #ffdcfd;
+  height: 50px;
+}
+
+.section .box.b-red#r300 {
+  background-color: orangered;
+  height: 50px;
+}
+
+.section .box.b-red#r400 {
+  background-color: #d575fc;
+  height: 50px;
+}
+
+.section .box.b-red#r500 {
+  background-color: #ff6f6f;
+  height: 50px;
+}
+
+.section .box.b-red#r600 {
+  background-color: #e5a4ff;
+  height: 50px;
+}
+
+.section .box.b-red#r700 {
+  background-color: #d575fc;
+  height: 50px;
+}
+
+.section .box.b-blue {
+  background-color: #2600ff;
+  height: 50px;
+  width: 200px;
+}
+/*# sourceMappingURL=main.css.map */

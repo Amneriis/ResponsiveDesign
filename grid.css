@@ -1,0 +1,61 @@
+/* GENERAL */
+
+body{
+    margin: auto;
+}
+
+.header{
+    width: auto;
+    height: 20px;
+    background-color: blue;
+}
+
+.section{
+
+}
+
+.box{
+
+}
+/* SECTION YELLOW */
+.section#yellow{
+    
+}
+
+.b-yellow{
+    
+}
+
+.b-yellow#y500{
+    
+}
+.b-yellow#y600{
+    
+}
+
+/* SECTION YELLOW */
+
+.section#red{
+    
+}
+
+.b-red{
+    
+}
+
+.b-red#r200{}
+.b-red#r300{}
+.b-red#r400{}
+.b-red#r500{}
+.b-red#r600{}
+.b-red#r700{}
+
+/* SECTION BLUE */
+
+.section#blue{
+    
+}
+
+.b-blue{
+    
+}
